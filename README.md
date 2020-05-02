@@ -3,7 +3,7 @@ Python virtual environment xxh plugin creates virtual environment directories wi
 ## Status: EXPERIMENTAL
 Current issues:
 * pip adds absolute local paths to venv files and packages. Some [python-appimage](https://github.com/niess/python-appimage/) techniques could be used to avoid it. As result:
-    * bash: `source activate` is not working without env changes
+    * bash/fish/zsh: `source activate` is not working without env changes
     * xonsh: `vox activate` is not working without env changes
 * Required xxh-plugin-prerun-python and not working with pure xxh-shell-xonsh 
 
