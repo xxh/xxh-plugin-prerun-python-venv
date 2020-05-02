@@ -15,6 +15,6 @@ xxh myhost +if
 ```
  
 ## Virtual environments
-To create many virtual environments just create `venv-<venv name>-requirements.txt` file 
+To create many virtual environments just fork this repo and create `venv-<venv name>-requirements.txt` file 
 for every environment in this directory and put the required packages to it.
-By default there is one `venv-start-requirements.txt` file. 
+By default there is one `venv-start-requirements.txt` file with `pandas` package. 
