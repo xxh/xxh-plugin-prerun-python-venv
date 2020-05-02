@@ -13,4 +13,9 @@ for venv_requirements_file in $(find $CDIR -type f -name 'venv-*-requirements.tx
   source $venv_dir/bin/activate
   pip install -r $venv_requirements_file
   deactivate
+
+  cd $venv_dir/bin
+  rm python*
+  ln -s ../../../../xxh-plugin-prerun-python/build/python/python
+  ln -s ../../../../xxh-plugin-prerun-python/build/python/python python3
 done
