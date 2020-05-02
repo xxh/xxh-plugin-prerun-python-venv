@@ -1,3 +1,5 @@
+### Status: Experimental
+
 Python virtual environment xxh plugin creates virtual environment directories with required packages to bring it into xxh session.
 
 ## Install
